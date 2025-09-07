@@ -48,6 +48,7 @@
 }
 
 .btn-primary{
+    box-sizing: border-box;
     height: 48px;
     padding: 12px 36px;
     background-color: rgba(78, 71, 255, 1);
@@ -57,12 +58,22 @@
     color: white;
     font-weight: 600;
     font-size: 16px;
+    transition: all 0.4s ease;
+}
+
+.btn-primary:hover{
+    cursor: pointer;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    color: black;
+    background-color: gold;
+    font-weight: 800;
 }
 
 
 /* Header styles */
 header{
-    background: url("../Assets/Hero-bg.png") no-repeat center / contain;
+    background: url("../Assets/Hero-bg.png") no-repeat center / cover;
     margin-bottom: 116px;
 }
 
