@@ -1,3 +1,10 @@
+/* Initial CSS */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
 /* Font styles */
 
 .inter{
@@ -10,4 +17,74 @@
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+
+/* Common styles */
+.web-bg{
+    background-color: rgba(245, 248, 255, 1);
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Mostly used text colors */
+.blue{
+    color: rgba(78, 71, 255, 1);
+}
+
+.black{
+    color: rgba(37, 36, 50, 1);
+}
+
+.black-light{
+    color: rgba(37, 36, 50, 0.5);
+}
+
+.btn-primary{
+    height: 48px;
+    padding: 12px 36px;
+    background-color: rgba(78, 71, 255, 1);
+    border: none;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/* Header styles */
+header{
+    background: url("../Assets/Hero-bg.png") no-repeat center / contain;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+nav h1{
+    font-weight: bolder;
+    font-size: 34px;
+}
+
+.banner{
+    max-width: 905px;
+    margin: 0 auto;
+    padding: 158px 0 152px;
+}
+
+.banner h1{
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 37px;
 }
