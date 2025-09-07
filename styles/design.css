@@ -115,6 +115,7 @@ nav h1{
     border-radius: 48px;
 }
 
+/* Productive user section styles */
 .productive-user{
     margin-bottom: 137px;
     background-color: rgba(78, 71, 255, 0.1);
@@ -122,7 +123,7 @@ nav h1{
     padding: 50px 0;
 }
 
-.productive-user h1{
+.productive-user h1, .user-feedback h1{
     font-weight: bold;
     font-size: 38px;
     margin-bottom: 40px;
@@ -142,4 +143,48 @@ nav h1{
 .user p{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+}
+
+/* User feedback section styles */
+.user-feedback{
+    margin-bottom: 137px;
+}
+
+.feedback-container{
+    display: flex;
+    gap: 20px;
+}
+
+.feedback{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    padding: 25px;
+}
+
+.feedback h2{
+    margin: 24px 0 8px;
+}
+
+.feedback p{
+    margin: 8px 0 24px;
+}
+
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.reviewer img{
+    border-radius: 50%;
+}
+
+.reviewer h3{
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+}
+
+.reviewer h6{
+    color: rgba(179, 179, 179, 1);
+    font-size: 16px;
 }
