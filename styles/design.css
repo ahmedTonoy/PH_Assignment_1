@@ -63,6 +63,7 @@
 /* Header styles */
 header{
     background: url("../Assets/Hero-bg.png") no-repeat center / contain;
+    margin-bottom: 116px;
 }
 
 nav{
@@ -87,4 +88,29 @@ nav h1{
     font-weight: bold;
     font-size: 65px;
     margin-bottom: 37px;
+}
+
+
+/* Body styles */
+/* Action section styles */
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 220px;
+    margin-bottom: 116px;
+}
+
+.action-left h1{
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.action-left p{
+    font-size: 24px;
+    margin: 23px 0;
+}
+
+.action-right img{
+    border-radius: 48px;
 }
