@@ -55,7 +55,7 @@
     border-radius: 10px;
     font-family: "Raleway", sans-serif;
     color: white;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 16px;
 }
 
@@ -187,4 +187,30 @@ nav h1{
 .reviewer h6{
     color: rgba(179, 179, 179, 1);
     font-size: 16px;
+}
+
+/* Ready-to-focus section styles */
+.ready-to-focus{
+    background-color: white;
+    border-radius: 14px;
+    padding: 71px 0;
+    margin-bottom: 92px;
+}
+
+.ready-to-focus h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.ready-to-focus p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+.ready-to-focus img{
+    display: block;
+    margin: 20px auto 0;
+    border-radius: 48px;
+
 }
